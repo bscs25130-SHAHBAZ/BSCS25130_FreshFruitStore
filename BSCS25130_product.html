@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFruit Store - Products</title>
+    <link rel="stylesheet" href="BSCS25130_style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">FreshFruit Store</div>
+            <ul>
+                <li><a href="BSCS25130_home.html">HOME</a></li>
+                <li><a href="BSCS25130_product.html">PRODUCTS</a></li>
+                <li><a href="BSCS25130_contact.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="BSCS25130_image1.jpg" alt="Apples">
+            <h2>Fresh Apples</h2>
+            <p class="price">Rs. 250 / Kg</p>
+            <p id="1">In stock</p>
+            <p>Juicy and handpicked apples full of natural sweetness.</p>
+            <button onclick="getstock('1')">Get Stock</button>
+        </div>
+
+        <div class="product">
+            <img src="BSCS25130_image2.jpg" alt="Bananas">
+            <h2>Bananas</h2>
+            <p class="price">Rs. 120 / Dozen</p>
+              <p id="2">In stock</p>
+            <p>Rich in potassium, a perfect energy booster.</p>
+            <button onclick="getstock('2')">Get Stock</button>
+        </div>
+
+        <div class="product">
+            <img src="BSCS25130_image3.jpg" alt="Mangoes">
+            <h2>Mangoes</h2>
+            <p class="price">Rs. 300 / Kg</p>
+            <p id="3">Out of stock</p>
+            <p class="stock out-stock">Out of Stock</p>
+            <p>King of fruits, sweet and aromatic Pakistani mangoes.</p>
+            <button onclick="getstock('3')">Get Stock</button>
+        </div>
+
+        <div class="product">
+            <img src="BSCS25130_image4.jpg" alt="Grapes">
+            <h2>Grapes</h2>
+            <p class="price">Rs. 280 / Kg</p>
+             <p id="4">In stock</p>
+            <p>Fresh green grapes, delicious and seedless.</p>
+             <button onclick="getstock('4')">Get Stock</button>
+
+        </div>
+
+        <div class="product">
+            <img src="BSCS25130_image5.jpg" alt="Oranges">
+            <h2>Oranges</h2>
+            <p class="price">Rs. 180 / Dozen</p>
+             <p id="5">In stock</p>
+            <p class="stock in-stock">In Stock</p>
+            <p>Vitamin C rich, juicy and refreshing oranges.</p>
+            <button onclick="getstock('5')">Get Stock</button>
+        </div>
+    </main>
+<script src="BSCS25130_script.js"></script>
+</body>
+</html>
